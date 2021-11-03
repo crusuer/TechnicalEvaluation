@@ -15,7 +15,7 @@ public class Application {
             do {
                 System.out.print("Basket: ");
                 line = keyboard.nextLine();
-                System.out.println("Total price expected: £" + service.getPrice(line.split(",")));
+                System.out.println("Total price expected: \u00a3" + service.getPrice(line.split(",")));
             } while (!line.equals(END_PROGRAM_COMMAND));
         }
     }
